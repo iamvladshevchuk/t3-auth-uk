@@ -37,3 +37,6 @@ yarn-error.log*
 
 # vscode
 .vscode
+
+# database
+prisma/db.sqlite
