@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@layer base {
+  html {
+    @apply text-white-100 text-[14px] bg-black-900;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3 {
+    @apply font-bold text-[24px];
+  }
+
+  a {
+    @apply text-primary-900;
+  }
+}
